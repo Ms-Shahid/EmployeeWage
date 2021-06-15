@@ -15,6 +15,7 @@ then
 else
 	empHrs=0
 fi
+
 salary=$(( empHrs * EMP_WAGE_PER_HR ))
 
 
